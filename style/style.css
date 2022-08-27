@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.addlist{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top:25px;
+}
+
+.card1{
+    text-align: center;
+    margin-top: 50px;
+    border: 1.5px solid red;
+    height: 260px;
+    width: 25%;
+    text-align: center;
+    /* position: absolute;
+    top: 50px;
+    left: 15px; */
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    /* margin: auto; */
+}
+
+.div1{
+    /* background-color: aqua;
+    border: 1px solid red; */
+    /* position: absolute;
+    top: 15px;
+    right: 0%; */
+    /* text-align: right; */
+    font-size: 22px;
+    color: crimson;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 15%;
+    /* padding-right: 10px; */
+}
+
+.div2{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua;
+    border: 1px solid red; */
+    margin-top: 30%;
+    /* position: absolute;
+    top: 35%; */
+    /* text-align: right; */
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+    /* border-bottom: 1px solid black; */
+}
+
+.div3{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua;
+    border: 1px solid red; */
+    margin-top: 30%;
+    /* position: absolute;
+    top: 52%; */
+    /* text-align: left; */
+    font-size: 20px;
+    color: black; 
+}
+
+#check{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.notshow{
+    filter: blur(6px);
+    -webkit-filter:blur(6px);
+
+}
+
+.pop-up{
+    position: absolute;
+    left: 36%;
+    top: 32%;
+    height: 25%;
+    width: 23%;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+}
+
+#pop-upbar{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#text{
+    margin-top: 13px;
+    border-radius: 8px;
+    width: 80%;
+    height: 25%;
+    border: 1.5px solid red;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.btn{
+    width: 25%;
+    height: 20%;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    margin-left: 115px;
+}
+
+.main-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.next{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: rgb(216, 219, 224);
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: black;
+}
+
+.prev{
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    background-color: rgb(216, 219, 224);
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: black;
+}
